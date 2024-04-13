@@ -19,6 +19,7 @@ public class ejercicio23 {
 	public static void main(String[] args) {
 		// Se crea un objeto y se le pasan los valores de numero1 y numero2
 		ejercicio23 objeto = new ejercicio23(18.5, 76.2);
+		
 		// Se llama al meotodo para que haga la suma
 		double suma = objeto.sumadorNumeros();
 		

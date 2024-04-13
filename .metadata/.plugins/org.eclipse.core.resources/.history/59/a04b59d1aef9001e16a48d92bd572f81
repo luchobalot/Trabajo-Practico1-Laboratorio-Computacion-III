@@ -1,0 +1,29 @@
+package ejercicios;
+import java.util.Scanner;
+
+public class ejercicio22 {
+	// Se define la variable de instancia.
+	private int variable;
+	
+	// Imprime el valor que se le asigne a la variable.
+	public void mostrarVariable() {
+		System.out.println("El valor que asignaste a la variable es: "+ variable);
+	}
+	
+	public static void main(String[] args) {
+		// Se crea un objeto de la clase "ejercicio22"
+		ejercicio22 objeto = new ejercicio22();
+		
+		// Se le pide al usuario que ingrese el valor de la variable:
+		Scanner.sca = new Scanner(System.in);
+		System.out.print("Ingresar un valor para la variable: ");
+		objeto.variable = sca.nextInt();
+		
+		objeto.mostrarVariable();
+		
+		sca.close();
+		
+		
+	}
+
+}

@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+C:\Users\LUCHO\eclipse-workspace\Trabajo Practico 1 - Lab. Comp. III\.metadata\.plugins\org.eclipse.jdt.core
+1929996930.index
+3326127330.index
+1865797976.index

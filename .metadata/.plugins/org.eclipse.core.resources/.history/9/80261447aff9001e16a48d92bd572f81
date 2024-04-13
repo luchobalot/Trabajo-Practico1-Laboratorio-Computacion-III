@@ -1,0 +1,26 @@
+package ejercicios;
+import java.util.Scanner;
+public class ejercicio22 {
+    // Variable de instancia
+    private int miVariable;
+
+    // Método que muestra el valor de la variable
+    public void mostrarVariable() {
+        System.out.println("El valor de la variable es: " + miVariable);
+    }
+
+    public static void main(String[] args) {
+        // Crear un objeto de la clase MiClase
+    	ejercicio22 objeto = new ejercicio22();
+
+        // Solicitar al usuario que ingrese el valor de la variable
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Ingrese un valor para la variable: ");
+        objeto.miVariable = scanner.nextInt();
+
+        // Llamar al método que muestra el valor de la variable
+        objeto.mostrarVariable();
+
+        scanner.close();
+    }
+}
